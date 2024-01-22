@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/juego" />
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/iv_canasta"
+        android:layout_width="156dp"
+        android:layout_height="98dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="950dp"
+        android:src="@drawable/canasta" />
+
+    <ImageView
+        android:id="@+id/iv_huevo"
+        android:layout_width="130dp"
+        android:layout_height="99dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/huevo" />
+
+    <ImageView
+        android:id="@+id/iv_huevoDos"
+        android:layout_width="130dp"
+        android:layout_height="99dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/huevo" />
+
+    <TextView
+        android:id="@+id/tv_tiempo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:paddingTop="-10dp"
+        android:paddingRight="25dp"
+        android:text="20s"
+        android:textColor="#EB1C24"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/tv_puntos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:paddingTop="81dp"
+        android:paddingRight="25dp"
+        android:text="0/30"
+        android:textColor="#EB1C24"
+        android:textSize="60sp" />
+
+    <ImageView
+        android:id="@+id/iv_roto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="1125dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/huevo_explotado" />
+
+    <ImageView
+        android:id="@+id/iv_rotoDos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="1125dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/huevo_explotado" />
+
+</RelativeLayout>
